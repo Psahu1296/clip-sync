@@ -10,6 +10,12 @@ clip-sync/
 └── clip-sync-server/    # Backend API (Node.js + Express)
 ```
 
+## Current Status
+
+> **MVP — Fully Offline**
+>
+> The current version runs entirely offline with local-only clipboard management. No server or account required. The architecture is designed to be extensible — cloud sync, multi-device support, and billing are planned for future releases.
+
 ## Features
 
 - **Clipboard Monitoring** — Automatically captures copied text, URLs, and code snippets
