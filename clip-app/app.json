@@ -1,0 +1,54 @@
+{
+  "expo": {
+    "name": "clip-app",
+    "slug": "clip-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/premium-icon.png",
+    "scheme": "clipapp",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/images/premium-splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#101b22"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.glosys.clipapp"
+    },
+    "android": {
+      "package": "com.glosys.clipapp",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/premium-icon.png",
+        "backgroundColor": "#101b22"
+      },
+      "edgeToEdgeEnabled": true,
+      "predictiveBackGestureEnabled": false,
+      "permissions": [
+        "RECEIVE_BOOT_COMPLETED",
+        "WAKE_LOCK"
+      ]
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      "./plugins/withKotlinVersion",
+      "./plugins/withClipboardAccessibility",
+      "expo-web-browser"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "4f414c2a-75cd-44a2-a156-f46f68cc09bb"
+      }
+    }
+  }
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="accessibility_service_description">ClipApp uses this service to monitor your clipboard in the background. This allows the app to automatically capture and sync copied text even when the app is not in the foreground.</string>
+</resources>
